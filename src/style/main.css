@@ -1,0 +1,197 @@
+.wrapperMainMenu{
+    margin: 20px;
+    width: 70%;
+}
+.wrapperPromo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+}
+.inputPromp{
+    width: 300px;
+    height: 32px;
+    text-align: center;
+}
+.blockInputMenu{
+    display: flex;
+    align-items: center;
+    padding: 5px 0 5px 0;
+    height: 37px;
+}
+.menuBlocks{
+    margin: 10px;
+}
+.inputSelect{
+    margin-top: 10px;
+}
+.menuButtonLeft{
+    margin: auto 20px;
+}
+.inputOnMenu{
+    margin-bottom: 5px;
+}
+.inputOnCheck{
+    height: 25px;
+}
+.inputBlockRowCheck{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 10px;
+    align-items: center;
+}
+.inputBlockRow{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 10px 10px;
+    align-items: center;
+}
+.wrapperCollum{
+    display: flex;
+    flex-direction: column;
+}
+.rowText{
+    min-width: 450px;
+}
+.textOnInput{
+    color: red;
+    margin-left: 20px;
+}
+.imp{
+    margin-right: 10px;
+}
+.iSkidPercent {
+    margin: 0 10px;
+    width: 80px;
+    height: 32px;
+}
+.impSkid{
+    width: 250px;
+    height: 32px;
+    text-align: center;
+}
+.iSkidPercent_butt{
+    margin-right: 10px;
+}
+.tableTitleArtCode{
+    margin-left: 40px;
+}
+.tableArtCode{
+    border: 1px solid cornflowerblue;
+    padding: 5px;
+    margin-left: 20px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.tableArtCode_firstItem{
+    margin-right: 20px;
+}
+.TypeMotivation_text{
+    margin-left: 10px;
+    color: #e15b64;
+}
+.table {
+    width: 700px;
+}
+.table th{
+    font-size: 14px;
+    padding: 4px;
+    text-align: center;
+}
+.collTable{
+    width: 40px;
+}
+.coll22Table{
+    width: 100px;
+}
+.buttonSize{
+    height: 32px;
+    align-items: center;
+}
+.inputContainer{
+    position: relative;
+
+}
+.inputContainer_list{
+    position: absolute;
+    top: 35px;
+    width: 100%;
+    background: white;
+    max-height: 400px;
+    overflow-y: auto;
+    cursor: pointer;
+    border: 2px solid #17a2b8;
+}
+.inputContainer_list li{
+    padding: 3px;
+}
+.inputContainer_list li:nth-child(2n){
+   background: #f6f6f6;
+}
+
+.inputContainer_list li:hover{
+    background: #f8b26a;
+}
+.buttonGroup{
+    margin-left: 10px;
+}
+.wrapperBody{
+    display: flex;
+}
+.buttonInGroup{
+    height: 35px;
+    margin-left: 10px;
+}
+Button{
+    box-shadow: 2px 2px 14px 2px rgba(34, 60, 80, 0.3);
+}
+.iconDelete{
+    background: url("./delete.png") no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Красивый checkbox */
+.checkbox {
+    display: none;
+}
+.fakeCheckbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #17a2b8;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 4px;
+}
+.checkbox:checked + .fakeCheckbox::before {
+    content: "✓";
+    font-size: 35px;
+    color: #17a2b8;
+    display: block;
+    margin-top: -16px;
+}
+label {
+    display: block;
+    cursor: pointer;
+}
+/* -------------- */
