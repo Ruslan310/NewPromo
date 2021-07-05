@@ -1,0 +1,13 @@
+.promoArr{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: square
+}
+.promoTitle{
+    font-weight: bold;
+    font-size: 20px;
+}
+.promoArrItem{
+    margin: 5px 0;
+}
